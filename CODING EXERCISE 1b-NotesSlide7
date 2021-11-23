@@ -1,31 +1,36 @@
 package myWhile;
 
-public class NotesSlide7 {
+public class NotesSlide8 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int i=1;
-		int j=10;
-		int k=20;
-		do {
-			System.out.print(i + "");
-			i++;
+		int i;
+		int j;
+		int k;
+		int l;
+		
+		for (i=1; i<5; i++) {
+		System.out.print(i + " ");
 		}
-		while (i<5);
+		
 		System.out.println();
 		
-		do {
-			System.out.print(j + "");
-			i++;
-		}
-		while (j<20);
+		for (j=10; j<20; j++) {
+			System.out.print(j + " ");
+			}
+		
 		System.out.println();
-		do {
-			System.out.print(k + "");
-			i++;
-		}
-		while (k>10);
-	}
+		
+		for (k=20; k>10; k--) {
+			System.out.print(k + " ");
+			}
 
-}
+		System.out.println();
+		
+		for (l=30; l>=0; l--) {
+			System.out.print(l + " ");
+			}
+
+	}
+} 
