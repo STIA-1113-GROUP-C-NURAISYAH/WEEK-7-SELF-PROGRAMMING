@@ -1,0 +1,16 @@
+package selfProgramming;
+
+public class Example4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int sum=0, num=2;
+		do {
+			sum+=num;
+			num=num+5;
+			System.out.println ("SUM: "+sum);
+			} while (num<=10);
+	}
+
+}
