@@ -1,0 +1,25 @@
+package repetitionAndSelection;
+import java.util.Scanner;
+public class PhonePassword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc=new Scanner (System.in);
+		
+		int pass=12345;
+		int phonepass;
+		
+		System.out.print("Please enter your password: ");
+		phonepass=sc.nextInt();
+		
+		while (phonepass!=pass) {
+			System.out.print("Please enter your password again: ");
+			phonepass=sc.nextInt();
+		}
+			System.out.println("Your password is correct.");
+			
+		sc.close();
+	}
+
+}
