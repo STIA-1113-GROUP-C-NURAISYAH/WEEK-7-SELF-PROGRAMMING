@@ -1,0 +1,11 @@
+//Output 1
+Enter your password: 33422
+Your password is wrong! You have 1 chance. Please enter again: 
+Enter your password: 2321
+Your account have beed blocked. Please contact our customer service.
+
+//Output 2
+Enter your password: 3223
+Your password is wrong! You have 1 chance. Please enter again: 
+Enter your password: 12345
+Your password is correct.
