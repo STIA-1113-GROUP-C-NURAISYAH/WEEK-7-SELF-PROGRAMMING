@@ -23,7 +23,7 @@ public class LoopPassword {
 				
 			}
 			else if(i==0) {
-				System.out.print("Your account have beed blocked. Please contact our customer service.");
+				System.out.print("Your account have been blocked. Please contact our customer service.");
 			}
     
         }
